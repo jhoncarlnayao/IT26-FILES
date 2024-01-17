@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+      h1,p{
+        color:orange;
+    }
+    
+    #pixels{
+        font-family: monospace;
+        color: blue;
+    }
+    body{
+        height: 50vh;
+        width: 100%;
+        /*background: rgb(2,0,36);
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,62,121,1) 24%, rgba(0,212,255,1) 100%); */
+        background-image: url(https://i.pinimg.com/564x/58/9c/de/589cde3ca2d6acf67425e250407b9174.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+     background-size: cover;
+        object-fit: contain;
+    } 
+    h1{
+        color:black;
+        border-style: dashed ;
+        font-family: monospace;
+        font-weight: bolder;
+        position: relative;
+        top: -8pc;
+        right: 20pc;
+        transition: transform 0.3s ease-in-out;
+    }
+    h1:hover{
+        transform: scale(1.2);
+    } 
+    .miniinfo{
+        font-family: monospace; 
+        color:black; 
+        font-weight: bolder;
+        position: relative;
+        bottom:32pc;
+        right: -5pc;
+        font-size: small;
+        
+    }
+    .head{
+        margin:400px
+    }
+    #heading{
+        background: rgba(9,62,121,1);
+    } 
+
+    #pixels{
+        position: relative;
+        top: 28pc;
+        left: 5pc;
+        color: black;
+        font-size: 2px;
+    }
+    #ems{
+        position: relative;
+        top: 29pc;
+        left: 5pc;
+        color: black;
+        font-size: 2ems;
+    }
+
+  
+    
+    
+</style>
+<body>
+    <div class="animate__animated animate__fadeInLeftBig">
+    <p id="pixels"> this is pixels</p>
+    <p id="ems"> this is ems</p>
+
+        
+        <h1 id="heading" class="head ">Hello! My Name is Jhon Carl Nayao</h1>
+        <p class="miniinfo">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Dolores aliquid reprehenderit ducimus reiciendis doloremque fuga est aut porro ipsum. <br>Totam itaque in, ea possimus soluta quibusdam vitae deserunt sapiente atque.</p>
+
+        </div>
+
+ 
+
+</body>
+</html>
