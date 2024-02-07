@@ -1,0 +1,153 @@
+body{
+    background: black;
+    height: auto;
+    width: auto;
+    margin: 0;
+}
+
+.bigcard{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 950px;
+    height: 650px;
+    border-radius: 54px 0px 0px 54px;
+    background: #FFB0CF;
+}
+
+.logocard{
+    height: 650px;
+    width: 500px;
+    background-image: url(420398213_953040216178402_4132244703757957362_n.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    border-radius: 54px 54px 54px 54px;
+}
+
+.bigcard h1{
+    position: relative;
+    bottom: 39pc;
+    left: 36pc;
+    font-family: 'Segoe UI';
+    color: white;
+    font-weight: bolder;
+    font-size: 3rem;
+}
+
+.lowerlogin{
+    position: relative;
+    bottom: 40.2pc;
+    left: 36.2pc;
+    font-family: "Inter",monospace;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.bigcard .username{
+    position: relative;
+    bottom: 38pc;
+    left: 36.2pc;
+    font-family: "Inter",monospace;
+    color: white;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.usernamebox{
+    position: relative;
+    bottom: 39pc;
+    left: 36pc;
+}
+
+.usernamebox input {
+    width: 300px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 17px; 
+    box-sizing: border-box;
+    font-size: 16px;
+    border: 1px white solid;
+}
+
+
+.bigcard .password{
+    position: relative;
+    bottom: 39pc;
+    left: 36.2pc;
+    font-family: "Inter",monospace;
+    color: white;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.passwordbox{
+    position: relative;
+    bottom: 40pc;
+    left: 36pc;
+}
+
+.passwordbox input {
+    width: 300px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 17px; 
+    box-sizing: border-box;
+    font-size: 16px;
+    border: 1px white solid;
+}
+
+.checkbox{
+    position: relative;
+    bottom: 39pc;
+    left: 36.2pc;
+}
+
+.checkbox label{
+    position: relative;
+    bottom: 2px;
+    color: white;
+    font-family:"Inter",monospace;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.button{
+    font-family: 'Segoe UI';
+    font-weight: bolder;
+    color: white;
+    font-size: 25px;
+    position: relative;
+    bottom: 38pc;
+    left: 36.2pc;
+    width: 300px;
+    height: 35px;
+    background-color: #FF90BC;
+    border: 0px;
+    border-radius: 12px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.button:hover{
+   transform: scale(1.2);
+}
+
+.newuser{
+    position: relative;
+    bottom: 37pc;
+    left: 37pc;
+    font-family:monospace;
+    color: white;
+}
+
+.newuserbutton a{
+    color: #617CC3;
+    position: relative;
+    bottom:38.9pc;
+    left: 41.3pc;
+    text-decoration: none;
+    width: 100px;
+}
+
